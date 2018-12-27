@@ -43,7 +43,7 @@ sleep 1
 exit
 }
 
-echo -e $endc "silahkan di pilih : "
+echo "silahkan di pilih : "
 echo ""
 echo " <{1}>  Nmap "
 echo " <{2}>  SQLMAP"
@@ -78,6 +78,7 @@ pkg install git python2 -y
 git clone https://github.com/sqlmapproject/sqlmap
 mv sqlmap ~
 echo "<><><><><><>GOOD LUCK<><<><><>>><>"
+echo "Tools Tadi Ada Di Directory Ku :) "
 fi
 
 if [ $jene = 3 ] || [ $jene = 3 ]
@@ -88,6 +89,7 @@ pkg install python2 git -y
 git clone https://github.com/UlalueHackers/ReconDog
 mv ReconDog
 echo "<><><><><><>GOOD LUCK<><><><><><>"
+echo "Tools Tadi Ada Di Directory Ku :) "
 fi
 
 if [ $jene = 4 ] || [ $jene = 4 ]
@@ -99,6 +101,7 @@ get install pip2
 git clone https://github.com/reverse-shell/routersploit
 mv routersploit ~; cd ~ / routersploit; pip2 instal -r requirement.txt; termux-fix-shebang rsf.py
 echo "<><><><><>GOOD LUCK<><><><><><>"
+echo "Tools Tadi Ada Di Directory Ku :) "
 fi
 
 if [ $jene = 5 ] || [ $jene = 5 ]
@@ -110,6 +113,7 @@ pkg install ruby curl
 git clone https://github.com/wpscanteam/wpscan
 gem install bundle && bundle config build.nokogiri --use-system-libraries && bundle install && ruby wpscan.rb --update
 echo "<><><><><><>GOOD LUCK<><><><><><>"
+echo "Tools Tadi Ada Di Directory Ku :) "
 fi
 
 if [ $jene = 6 ] || [ $jene = 6 ]
@@ -120,6 +124,7 @@ pkg install php git -y
 git clone http://www.github.com/Cvar1984/sqlscan
 mv sqlscan ~
 echo "<><><><><>GOOD LUCK<><><><><><>"
+echo "Tools Tadi Ada Di Directory Ku :) "
 fi
 
 if [ $jene = 7 ] || [ $jene = 7 ]
@@ -132,6 +137,7 @@ cpnm install LWP::Useragent
 git clone https://github.com/Moham3dRiahi/XAttacker
 mv XAttacker ~
 echo "<><><><>GOOD LUCK<><><><><>"
+echo "Tools Tadi Ada Di Directory Ku :) "
 fi
 
 if [ $jene = 8 ] || [ $jene = 8 ]
@@ -142,6 +148,7 @@ pkg install python2 git -y
 git clone https://github.com/Amriez/GreenReaper
 mv GreenReaper ~
 echo "<><><><>GOOD LUCK<><><><><>"
+echo "Tools Tadi Ada Di Directory Ku :) "
 fi
 
 if [ $jene = 9 ] || [ $jene = 9 ]
@@ -152,6 +159,7 @@ pkg install php git -y
 git clone https://github.com/Tuhinshubhra/RED_HAWK
 mv RED_HAWK ~
 echo "<><><><>GOOD LUCK<><><><><>"
+echo "Tools Tadi Ada Di Directory Ku :) "
 fi
 
 if
